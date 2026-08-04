@@ -15,6 +15,10 @@ eval infrastructure, and multi-model CV pipelines.
 **Some things I've shipped**
 - Agentic RAG assistant over 220+ clinical documents; eval harness took
   recall@5 from 0.70 to 0.87 and faithfulness from 0.72 to 0.89
+- On-device fall detection running on 7,000+ devices within 8 months:
+  83% sensitivity at 1.7 false alarms/day in continuous wear, inference on
+  the MCU with belt and chest mounting and two caregiver-selectable
+  sensitivity profiles
 - Multi-model CV inference pipeline serving 270,000+ unique users
 - ViT-Base/16 fine-tuned and quantized to ~165 MB for ~0.7s/image on-device
 - A CRM platform built solo end to end, live in production
